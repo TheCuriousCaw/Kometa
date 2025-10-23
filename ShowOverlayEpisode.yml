@@ -1,0 +1,14 @@
+overlays: 
+  testoverlay1:
+    builder_level: episode
+    overlay:
+      name: Test
+      file: config/overlays/cardoverlay.png
+      placement: top
+      horizontal_offset: 0
+      vertical_offset: 0
+      back_color: false
+      group: custom
+      weight: 100
+      default: false
+    plex_all: true
